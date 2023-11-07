@@ -22,6 +22,7 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 30px 80px 35px 80px;
+  /* background-color: #f1efff; */
 }
 
 #logo{
@@ -133,7 +134,7 @@ nav{
 }
 
 header button{
-  background-color: #eeedff;
+  background-color: #e4e3fc;
   border: none;
   height: 40px;
   width: 110px;
@@ -349,6 +350,6 @@ form button:hover{
 }
 
 .userpage{
-
+  max-width: 1000px;
   margin: 0 auto;
 }

@@ -38,7 +38,7 @@ export default function IndexPage(){
             userInfo && (
                 <>
                 <div id="crt">
-                    <p style={{display:"flex", gap:'5px',marginLeft:'8px'}}>hello, <p style={{color:"rgb(129, 126, 209)"}}>{name}</p>!</p>
+                    <p style={{display:"flex", gap:'5px',marginLeft:'8px'}}>hello, <p style={{color:"#7873d6"}}>{name}</p>!</p>
                     <button 
                     onClick={createPost}
                     >create post</button>
