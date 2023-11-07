@@ -28,7 +28,6 @@ function App() {
         <Route path='/createPost' element={<CreatePost/>}></Route>
         <Route path='/post/:id' element={<PostPage/>}></Route>
         <Route path='/edit/:id' element={<EditPost />}></Route>
-        <Route path='/myPosts' element={<MyPosts />}></Route>
       </Route>
     </Routes>
     </UserContextProvider>

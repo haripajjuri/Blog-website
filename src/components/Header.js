@@ -53,7 +53,7 @@ export default function Header(){
               {/* <Link to='/createPost'>create new post</Link> */}
               <a href="/">Home</a>
               {/* <a href={`/user`}>my profile</a> */}
-              <a href={`/myPosts`}>my posts</a>
+              {/* <a href={`/myPosts`}>my posts</a> */}
               <button onClick={logout}>logout</button>
             </>
           )}
