@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useContext, useEffect } from "react"
-import { Link, Navigate, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { UserContext } from "../UserContext";
 import Swal from "sweetalert2";
 
@@ -53,7 +53,7 @@ export default function Header(){
               {/* <Link to='/createPost'>create new post</Link> */}
               <a href="/">Home</a>
               {/* <a href={`/user`}>my profile</a> */}
-              {/* <a href={`/myPosts`}>my posts</a> */}
+              <a href={`/myPosts`}>my posts</a>
               <button onClick={logout}>logout</button>
             </>
           )}

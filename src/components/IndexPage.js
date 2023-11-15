@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function IndexPage(){
     const [posts,setPosts] = useState([]);
-    const {userInfo,setUserInfo} = useContext(UserContext);
+    const {userInfo} = useContext(UserContext);
     const navigate = useNavigate();
 
     useEffect(()=>{
